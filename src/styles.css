@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  height: 20vh;
+  width: 50%;
+}
+
+.heading {
+  /* width: 100%; */
+  padding: 1rem 5rem;
+  background-color: #a78bfa;
+  /* margin:0; */
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-bottom: 5rem;
+}
+.genre {
+  font-size: large;
+  padding: 1rem 2rem;
+  /* border: 1px solid black; */
+  border: none;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: #a78bfa;
+}
+.genre:hover {
+  background-color: #f3f4f6;
+  color: black;
+}
